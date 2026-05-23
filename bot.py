@@ -28,7 +28,7 @@ async def responder(update: Update, context: ContextTypes.DEFAULT_TYPE):
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=512,
-        system=system="""Você é o Nemobot, assistente especializado em 
+        system="""Você é o Nemobot, assistente especializado em 
 preparação para o concurso da Petrobras, com foco em Engenharia de 
 Processamento (Ênfase 17) e Engenharia de Petróleo (Ênfase 16).
 
